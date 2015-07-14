@@ -1,0 +1,144 @@
+/*
+
+My Custom CSS
+=============
+
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+   #features{
+      text-align:center;
+   }
+
+   #features img{
+      margin-bottom:20px;
+   }
+
+
+   footer{
+      background: #24064d;
+      color:#eee;
+      font-size:12px;
+      padding:20px;
+   }
+
+
+.dropdown-toggle, #staffLogin, #guestLogin, .navbar-nav, .close {
+   background-color:#24064d ;
+   color: white;
+}
+
+
+   body{
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizelegibility;
+   }
+
+
+     h1{
+      margin-top:50px;
+        border-color: transparent;
+        background-color: transparent;
+        font-family: 'Pacifico', cursive;
+     color:red;
+   }
+   
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   #searchInput{
+      width:200px;
+   }
+
+   .navbar{
+      background-color: #24064d;
+   }
+   .navbar-brand{
+      padding:6px 12px;
+      background-color:  #24064d;;
+   }
+   
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   #myCarousel {
+      margin-top: 0px;
+      margin-bottom: 20px;
+   }
+
+   .carousel-caption{
+      font-size: 24px;
+   }
+   .carousel-caption h4{
+      font-size: 32px;
+   }
+   #myCarousel .item{ height:400px; }
+
+   #slide1{
+      background: url('../../images/carousel_medium_01.jpg') top center;
+   }
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+   .well{
+      margin:20px 0;
+   }
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+   .thumbnail .price{
+      font-size:14px;
+   }
+
+   .thumbnail .price sup{
+      font-size:10px;
+   }
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	#myCarousel .item{ height:310px; }
+
+   #slide1{
+      background: url('../../images/carousel_small_01.jpg') top center no-repeat;
+   }
+
+   .carousel-caption{
+      font-size:32px;
+   }
+   .carousel-caption h4{
+      font-size:22px;
+   }
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	#myCarousel .item{ height:500px; }
+
+   #slide1{
+      background: url('../../images/carousel_large_01.jpg') top center no-repeat;
+   }
+
+}
