@@ -36,5 +36,5 @@ bower_components/
 *.css.map
 build/
 dist/
-idea/
-images/
+.idea/
+.images/

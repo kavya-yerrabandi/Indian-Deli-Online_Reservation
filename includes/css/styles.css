@@ -23,14 +23,14 @@ My Custom CSS
    footer{
       background: #24064d;
       color:#eee;
-      font-size:12px;
+      font-size:100%;
       padding:20px;
    }
 
 
 .dropdown-toggle, #staffLogin, #guestLogin, .navbar-nav, .close {
    background-color:#24064d ;
-   color: white;
+   color: #340fff;
 }
 
 
@@ -41,7 +41,7 @@ My Custom CSS
 
 
      h1{
-      margin-top:50px;
+      margin-top:55px;
         border-color: transparent;
         background-color: transparent;
         font-family: 'Pacifico', cursive;
@@ -71,9 +71,6 @@ p{
    color: black;
 }
 
-
-
-
 /* --------------------------------------
    Navbar
    -------------------------------------- */
@@ -83,13 +80,13 @@ p{
    }
 
 
-
    .navbar{
       background-color: #24064d;
    }
+
    .navbar-brand{
       padding:6px 12px;
-      background-color:  #24064d;;
+      background-color: #24064d;;
    }
 
 
